@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Services | Account Recovery & Content Removal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/logos/your-logo.png">
+</head>
+<body>
+    <!-- Floating Telegram Button -->
+    <a href="https://t.me/skylord_zr" class="telegram-float" target="_blank">
+        <i class="fab fa-telegram"></i> Contact Me
+    </a>
+
+    <!-- Header -->
+    <header>
+        <div class="logo-container">
+            <img src="assets/logos/your-logo.png" alt="Service Logo" class="logo">
+            <h1>Social Media Services</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#past-works">Past Works</a></li>
+                <li><a href="#vouches">Vouches</a></li>
+                <li><a href="#feedback">Feedback</a></li>
+                <li><a href="#terms">Terms</a></li>
+                <li><a href="admin/" class="admin-link">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <h2>Professional Social Media Account Recovery & Content Removal</h2>
+            <p>Trusted services for Instagram, Facebook, TikTok, Twitter, YouTube, and more</p>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section">
+            <h2>Our Services</h2>
+            
+            <div class="service-category">
+                <h3>Account/Page Removal & Recovery</h3>
+                <div class="platform-grid">
+                    <div class="platform">
+                        <img src="assets/logos/instagram.png" alt="Instagram">
+                        <p>Instagram</p>
+                    </div>
+                    <div class="platform">
+                        <img src="assets/logos/facebook.png" alt="Facebook">
+                        <p>Facebook</p>
+                    </div>
+                    <div class="platform">
+                        <img src="assets/logos/tiktok.png" alt="TikTok">
+                        <p>TikTok</p>
+                    </div>
+                    <div class="platform">
+                        <img src="assets/logos/twitter.png" alt="Twitter/X">
+                        <p>Twitter/X</p>
+                    </div>
+                    <div class="platform">
+                        <img src="assets/logos/youtube.png" alt="YouTube">
+                        <p>YouTube</p>
+                    </div>
+                    <div class="platform">
+                        <img src="assets/logos/snapchat.png" alt="Snapchat">
+                        <p>Snapchat</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="service-category">
+                <h3>Posts & Articles Removal</h3>
+                <div class="platform-grid">
+                    <div class="platform">
+                        <img src="assets/logos/quora.png" alt="Quora">
+                        <p>Quora</p>
+                    </div>
+                    <div class="platform">
+                        <img src="assets/logos/reddit.png" alt="Reddit">
+                        <p>Reddit</p>
+                    </div>
+                    <div class="platform">
+                        <i class="fas fa-newspaper"></i>
+                        <p>News Portals</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Past Works Section -->
+        <section id="past-works" class="section">
+            <h2>Past Works</h2>
+            <p>Check out our successful recoveries and removals in our Telegram channel:</p>
+            <a href="#" id="telegram-channel-link" class="btn" target="_blank">Join Telegram Channel</a>
+        </section>
+
+        <!-- Vouches Section -->
+        <section id="vouches" class="section">
+            <h2>Client Vouches</h2>
+            <div class="vouches-grid" id="vouches-container">
+                <!-- Vouches will be loaded from localStorage -->
+            </div>
+        </section>
+
+        <!-- Feedback Section -->
+        <section id="feedback" class="section">
+            <h2>Leave Feedback</h2>
+            <form id="feedback-form">
+                <div class="form-group">
+                    <label for="name">Name (optional):</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="form-group">
+                    <label>Rating:</label>
+                    <div class="rating">
+                        <i class="far fa-star" data-rating="1"></i>
+                        <i class="far fa-star" data-rating="2"></i>
+                        <i class="far fa-star" data-rating="3"></i>
+                        <i class="far fa-star" data-rating="4"></i>
+                        <i class="far fa-star" data-rating="5"></i>
+                    </div>
+                    <input type="hidden" id="rating" name="rating" value="0">
+                </div>
+                <div class="form-group">
+                    <label for="message">Feedback:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Submit Feedback</button>
+            </form>
+            
+            <div class="approved-feedback">
+                <h3>Client Testimonials</h3>
+                <div id="approved-feedback-container">
+                    <!-- Approved feedback will be loaded here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Terms Section -->
+        <section id="terms" class="section">
+            <h2>Terms & Conditions</h2>
+            <div class="terms-container">
+                <div class="term-card">
+                    <h3><i class="fas fa-shield-alt"></i> Direct Payments Only</h3>
+                    <p>All payments must be made directly by the client or verified reseller to us. We do not accept transactions involving any third-party handlers or payment facilitators. Payment should be clean and direct.</p>
+                </div>
+                
+                <div class="term-card">
+                    <h3><i class="fas fa-times-circle cross-animation"></i> No Test or Trials</h3>
+                    <p>We don't offer any test or trials for any programs or services so, don't ask for it in our DMs.</p>
+                </div>
+                
+                <div class="term-card">
+                    <h3><i class="fas fa-users"></i> Reseller Friendly</h3>
+                    <p>Resellers are allowed. If you're reselling, you are fully responsible for your clients. We will only communicate and coordinate with the reseller — not with their customers.</p>
+                </div>
+                
+                <div class="term-card">
+                    <h3><i class="fas fa-lock"></i> Privacy Rules</h3>
+                    <p>You may reveal our identity, but sharing or leaking any tool, method, or program you receive from us is strictly prohibited. If caught, you'll be permanently banned from using any of our services — no exceptions, no refund.</p>
+                </div>
+                
+                <div class="term-card">
+                    <h3><i class="fas fa-ban"></i> Ban Service Types</h3>
+                    <p><strong>Permanent Ban: ❌</strong> We permanently ban the account you provide. If it ever returns, we'll ban it again for free. Lifetime guarantee.</p>
+                    <p><strong>Normal Ban: ❌</strong> We ban the account once. If it comes back later, you'll need to pay again for a new ban.</p>
+                </div>
+                
+                <div class="term-card">
+                    <h3><i class="fas fa-check-circle"></i> Guarantee & Refund</h3>
+                    <p>If the account doesn't get banned within the agreed TAT after payment, we'll give you a full refund instantly. We stand by our service.</p>
+                </div>
+                
+                <div class="term-card">
+                    <h3><i class="fas fa-money-bill-wave"></i> Payment Methods</h3>
+                    <p>Only cryptocurrency is accepted:</p>
+                    <div class="crypto-methods">
+                        <img src="assets/payment/usdt.png" alt="USDT">
+                        <img src="assets/payment/btc.png" alt="BTC">
+                        <img src="assets/payment/eth.png" alt="ETH">
+                        <img src="assets/payment/sol.png" alt="SOL">
+                        <img src="assets/payment/ltc.png" alt="LTC">
+                    </div>
+                </div>
+                
+                <div class="term-card">
+                    <h3><i class="fas fa-exclamation-triangle"></i> Your Responsibility</h3>
+                    <p>Send correct info. If you send fake or incomplete data, we won't be responsible.</p>
+                </div>
+                
+                <div class="term-card">
+                    <h3><i class="fas fa-hand-paper"></i> Right to Decline</h3>
+                    <p>We reserve the right to refuse service to anyone without explanation.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Social Media Services. All rights reserved.</p>
+        <p>Contact: <a href="https://t.me/skylord_zr" target="_blank">@skylord_zr</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
